@@ -1,0 +1,331 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&family=Noto+Sans+Limbu&family=Poppins:wght@200;300;400;500&family=Raleway:wght@500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* max-width: 1440px; */
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans Limbu', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+header{
+    background-image: url(../img/hero-cover.5.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bk_opac{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.502);
+    display: flex;
+    justify-content: center;
+}
+/* NAVBAR */
+.hd_mr_auto{
+    max-width: 1200px;
+    width: 1000px;
+}
+nav{
+    height: 11%;
+    display: flex;
+    color: white;
+}
+.nav_a{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_a_1{
+    font-size: 24px;
+    letter-spacing: 0.1px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 21px;
+    font-size: 14px;
+    font-weight: 600px;
+    letter-spacing: 0.2px;
+}
+ul li{
+    cursor: pointer;
+}
+.nav_b{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    cursor: pointer;
+}
+.nav_b div{
+    padding: 15px 25px;
+    border-radius: 5px;
+    background-color: #23A6F0;
+    font-weight: bolder;
+    letter-spacing: 0.2px;
+}
+.nav_b div i{
+    margin-left: 20px;
+}
+/* header AFTER NAVBAR */
+.head{
+    height: 89%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.meet{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.meet p:nth-child(1){
+    letter-spacing: 0.2px;
+    font-size: 58px;
+    font-weight: 800;
+    color: white;
+}
+.meet p:nth-child(2){
+    color: white;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    font-weight: 500;
+}
+.bt_mt{
+    display: flex;
+    gap: 10px;
+}
+.bt_mt div:nth-child(1){
+    padding: 15px 36px;
+    border-radius: 37px;
+    background-color: #23A6F0;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+}
+.bt_mt div:nth-child(2){
+    border: 1px solid white;
+    padding: 15px 36px;
+    border-radius: 37px;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+}
+/* Forms */
+.forms{
+    /* height: 100%; */
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    gap: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.forms p{
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.1px;
+    text-align: center;
+}
+form{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+form label{
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+}
+form input, select{
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    background-color: #F9F9F9;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+}
+select{
+    color: #737373;
+}
+.forms button{
+    background-color: #23A6F0;
+    border-style: none;
+    padding: 16px 40px;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* === */
+
+.hd_mr_auto{
+    height: 100vh;
+    max-width: 1200px;
+    width: 1000px;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.txt_sc{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    padding-top: ;
+}
+.txt_sc p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #737373;
+}
+.abc{
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    justify-content: space-between;
+}
+.ic_a{
+    border-radius: 10px 10px 0 0;
+    padding: 30px 50px;
+    background-color: #8EC2F2;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.a,.b,.c h5{
+    color: white;
+    letter-spacing: 0.1;
+    /* background-color: #c8e5ff */
+}
+.a,.b,.c{
+    background-color: #c8e5ff;
+    border-radius: 11px;
+}
+.a_i{
+    border-radius: 50%;
+    background-color: white;
+    color: #8EC2F2;
+}
+.a_i i{
+    margin: 20px;
+}
+
+.txt_abc{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 30px 50px;
+    border: 1px solid #A9D6FF;
+    border-radius: 11px;
+    line-height: 24px;
+    background-color: white;
+}
+.txt_abc h6{
+    font-size: 14px;
+    color: #737373;
+    letter-spacing: 0.2px;
+}
+.txt_abc a{
+    font-size: 14px;
+    color: #23A6F0;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+/* footer */
+footer{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* height: 50vh; */
+}
+
+.ft_mr_auto{
+    max-width: 1200px;
+    width: 1000px;
+    padding: 80px 0;
+    gap: 30px;
+    display: flex;
+}
+.ft_end{
+    width: 100%;
+    padding: 25px 0;
+    text-align: center;
+    background-color: #FAFAFA;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+}
+.ft_end p{
+    color: #737373;
+    letter-spacing: 0.2px;
+}
+.ft_1{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 25%;
+}
+.ft_1 h3{
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+}
+.ft_1 p{
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    line-height: 20px;
+    color: #737373;
+}
+.ft_2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 25%;
+}
+.p_ft{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+.ft_2 h3{
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+}
